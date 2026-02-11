@@ -7,7 +7,11 @@ int main()
 	if(you<=2||date<=2)
 	{
 		printf("0");
-	}else
+	}else if(you>=8||date>=8)
+	{
+	 printf("2");
+    }     
+	else
 	{
 		printf("1");
 	}
